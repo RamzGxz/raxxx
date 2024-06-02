@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn {
+  background: linear-gradient(90deg, #912EE0 13.51%, #BC17B1 81.03%);
+}
+
+.btn:hover {
+  background: transparent;
+  border: 1px solid #912EE0;
+  color: #912EE0;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #912EE0, #BC17B1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-bg {
+  background: linear-gradient(180deg, #ABEBF1 0%, #D1C2EC 48.63%, #FBB1D3 100%);
+}
+
+.bg-price{
+  background: linear-gradient(180deg, #912EE0 0%, #BC17B1 100%);
+
+}

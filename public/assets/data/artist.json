@@ -1,0 +1,95 @@
+{
+  "artist": [
+    {
+      "name": "Alexander Smith",
+      "earnings": "$980,000",
+      "verified": true,
+      "img": "/public/assets/img/avatar/alex.png"
+    },
+    {
+      "name": "Michael Brown",
+      "earnings": "$900,000",
+      "verified": false,
+      "img": "/public/assets/img/avatar/michael.png"
+    },
+    {
+      "name": "William Davis",
+      "earnings": "$900,000",
+      "verified": false,
+      "img": "/public/assets/img/avatar/william.png"
+    },
+    {
+      "name": "Emma Charlotte",
+      "earnings": "$850,000",
+      "verified": false,
+      "img": "/public/assets/img/avatar/emma.png"
+    },
+    {
+      "name": "Sophia Brown",
+      "earnings": "$830,000",
+      "verified": true,
+      "img": "/public/assets/img/avatar/shopia.png"
+    },
+    {
+      "name": "Sophia Isabella",
+      "earnings": "$800,000",
+      "verified": false,
+      "img": "/public/assets/img/avatar/issable.png"
+    },
+    {
+      "name": "Henry Wilson",
+      "earnings": "$600,000",
+      "verified": true,
+      "img": "/public/assets/img/avatar/henry.png"
+    },
+    {
+      "name": "Lucas White",
+      "earnings": "$500,000",
+      "verified": false,
+      "img": "/public/assets/img/avatar/lucas.png"
+    },
+    {
+      "name": "Logan Martin",
+      "earnings": "$500,000",
+      "verified": true,
+      "img": "/public/assets/img/avatar/logan.png"
+    },
+    {
+      "name": "Harper Ella",
+      "earnings": "$350,000",
+      "verified": true,
+      "img": "/public/assets/img/avatar/harper.png"
+    },
+    {
+      "name": "Scarlett White",
+      "earnings": "$300,000",
+      "verified": false,
+      "img": "/public/assets/img/avatar/scarlett.png"
+    },
+    {
+      "name": "Evelyn Wilson",
+      "earnings": "$300,000",
+      "verified": false,
+      "img": "/public/assets/img/avatar/evelyn.png"
+    },
+    {
+      "name": "Samuel Walker",
+      "earnings": "$250,000",
+      "verified": false,
+      "img": "/public/assets/img/avatar/samuel.png"
+    },
+    {
+      "name": "Mason Harris",
+      "earnings": "$200,000",
+      "verified": true,
+      "img": "/public/assets/img/avatar/mason.png"
+    },
+    {
+      "name": "Evelyn Abigail",
+      "earnings": "$100,000",
+      "verified": false,
+      "img": "/public/assets/img/avatar/abigail.png"
+    }
+    
+  ]
+}
