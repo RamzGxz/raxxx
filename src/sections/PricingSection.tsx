@@ -26,7 +26,7 @@ const PricingSection = () => {
               <p className="text-[16px] font-medium">15 Days Money Back</p>
             </div>
           </div>
-          <p className="text-center text-[16px]">In 90 Days Package You Can Withdraw The Earnings On Paypal, Bank Transfer Or In USDT (Trc20)</p>
+          <p className="text-center lg:text-[12px] text-[16px]">In 90 Days Package You Can Withdraw The Earnings On Paypal, Bank Transfer Or In USDT (Trc20)</p>
           <button className="w-[Fill (309.67px)] h-[52px] text-lg font-semibold rounded-md text-[#912EE0] border border-[#912EE0] hover:bg-[#BC17B1] hover:text-white hover:border-0">
             Choose Plan
           </button>
@@ -48,7 +48,7 @@ const PricingSection = () => {
               <p className="text-[16px] font-medium">60 Days Money Back</p>
             </div>
           </div>
-          <p className="text-center text-[16px]">In 365 Days Package You Can Withdraw The Earnings On Paypal, Bank Transfer Or In USDT (Trc20)</p>
+          <p className="text-center lg:text-[12px] text-[16px]">In 365 Days Package You Can Withdraw The Earnings On Paypal, Bank Transfer Or In USDT (Trc20)</p>
           <button className="h-[52px] text-lg font-semibold rounded-md btn-bg text-blacks">
             Choose Plan
           </button>
@@ -70,7 +70,7 @@ const PricingSection = () => {
               <p className="text-[16px] font-medium">30 Days Money Back</p>
             </div>
           </div>
-          <p className="text-center text-[16px]">In 180 Days Package You Can Withdraw The Earnings On Paypal, Bank Transfer Or In USDT (Trc20)</p>
+          <p className="text-center lg:text-[12px] text-[16px]">In 180 Days Package You Can Withdraw The Earnings On Paypal, Bank Transfer Or In USDT (Trc20)</p>
           <button className="w-[Fill (309.67px)] h-[52px] text-lg font-semibold rounded-md text-[#912EE0] border border-[#912EE0] hover:bg-[#BC17B1] hover:text-white hover:border-0">
             Choose Plan
           </button>
