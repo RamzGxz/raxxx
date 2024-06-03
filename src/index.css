@@ -24,6 +24,13 @@
   background: linear-gradient(180deg, #ABEBF1 0%, #D1C2EC 48.63%, #FBB1D3 100%);
 }
 
+
+.btn-bg:hover{
+  background: transparent;
+  border: 1px solid #D1C2EC;
+  color: #D1C2EC;
+}
+
 .bg-price{
   background: linear-gradient(180deg, #912EE0 0%, #BC17B1 100%);
 

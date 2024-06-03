@@ -2,14 +2,14 @@
 
 const PricingSection = () => {
   return (
-    <div className="w-full flex justify-center items-center flex-col gap-10 py-32 relative -z-40" id="pricing">
+    <div className="w-full flex justify-center items-center flex-col gap-10 py-32 relative" id="pricing">
       <div className=' absolute -z-50 right-[10%] -top-[10%]' style={{
         width: 594,
         height: 594,
         background: 'radial-gradient(41.49% 41.49% at 50% 50%, rgba(102, 27, 122, 0.62) 0%, rgba(101, 26, 117, 0) 100%)'
       }}></div>
       <h1 className="text-[28px] gradient-text font-bold">PRICING AND PLAN</h1>
-      <div className=" bg-accent rounded-xl py-5 grid lg:grid-cols-3 grid-cols-1 relative -z-20 lg:gap-0 gap-5">
+      <div className=" bg-accent rounded-xl py-5 grid lg:grid-cols-3 grid-cols-1 relative lg:gap-0 gap-5">
         <div className="flex flex-col gap-5 px-5 justify-between">
           <div className="pb-5 border-b border-white flex flex-col gap-5">
             <div className="flex flex-col gap-2">
@@ -77,7 +77,7 @@ const PricingSection = () => {
         </div>
       </div>
 
-      <div className=' absolute -z-50 lg:-right-[9%] -right-3 -bottom-[10%]' style={{
+      <div className=' absolute -z-50 lg:-right-[2%] -right-3 -bottom-[10%]' style={{
         width: 250,
         height: 250,
         background: 'radial-gradient(41.49% 41.49% at 50% 50%, rgba(102, 27, 122, 0.62) 0%, rgba(101, 26, 117, 0) 100%)'

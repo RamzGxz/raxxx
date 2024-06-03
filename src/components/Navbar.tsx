@@ -21,7 +21,7 @@ const Navbar = () => {
   }, [hash]);
 
   return (
-    <div className="w-full flex justify-between items-center max-w-screen-xl mx-auto lg:px-0 px-6">
+    <div className="w-full flex justify-between items-center xl:max-w-screen-xl lg:max-w-screen-lg md:max-w-screen-md sm:max-w-screen-sm mx-auto lg:px-0 px-6 z-[999999999999999]">
       <Link to={'/#hero'} className="" onClick={()=>{
         setMenuView(false)
       }}>
@@ -38,7 +38,7 @@ const Navbar = () => {
         </button>
       </div>
 
-      <div className={`absolute top-20 left-0 px-6 py-6 w-full transition-all duration-300 ease-in-out ${menuView ? 'h-screen backdrop-blur-md' : 'h-0'}`}>
+      <div className={`absolute top-20 max-w-screen-xl lg:hidden left-0 px-6 py-6 w-full transition-all duration-300 ease-in-out ${menuView ? 'h-screen backdrop-blur-md' : 'h-0'}`}>
         <ul className={`${menuView ? 'opacity-100' : 'opacity-0'} transition-opacity duration-300 ease-in-out flex flex-col gap-3`}>
           {menuView && (
             <>

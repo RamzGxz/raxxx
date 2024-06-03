@@ -2,16 +2,16 @@ import { Play } from '@phosphor-icons/react'
 
 const HeroSection = () => {
   return (
-    <div className='w-full h-screen flex justify-center items-center py-32 pt-36 relative -z-10' id='hero'>
-      <div className='lg:w-[594px] lg:h-[594] lg:absolute lg:block hidden -z-10 lg:-left-[20%] lg:-top-[0%]' style={{
+    <div className='w-full h-screen flex justify-center items-center py-32 pt-36 relative' id='hero'>
+      <div className='lg:w-[594px] lg:h-[594] lg:absolute lg:block hidden -z-50 lg:-left-[20%] lg:-top-[0%]' style={{
         background: 'radial-gradient(41.49% 41.49% at 50% 50%, rgba(102, 27, 122, 0.62) 0%, rgba(101, 26, 117, 0) 100%)',
       }}></div>
       
       <div className="w-full flex justify-between gap-10">
         <div className="lg:w-1/2 w-full flex flex-col gap-10 items-center justify-center">
           <div className="flex flex-col gap-3">
-            <h1 className="text-[42px] font-bold leading-[50.4px] lg:text-start text-center">Explore Our High Ticket Mining Server, Best ROI, Autopilot Income</h1>
-            <p className="text-textAccent text-[28px] leading-[33.6px]">An excellent marketplace for achieving significant ROI</p>
+            <h1 className="lg:text-[42px] text-4xl font-bold leading-[50.4px] lg:text-start">Explore Our High Ticket Mining Server, Best ROI, Autopilot Income</h1>
+            <p className="text-textAccent lg:text-[28px] text-2xl leading-[33.6px]">An excellent marketplace for achieving significant ROI</p>
           </div>
           <div className="flex items-center gap-5 w-full">
             <button className="rounded-md w-[174px] h-[50px] text-lg font-semibold btn">Login</button>
@@ -34,10 +34,10 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className=' lg:w-[594px] lg:h-[594px] w-full top-0 h-[594px] absolute -z-10 lg:-right-[9%] lg:-top-[0%]' style={{
+      <div className='lg:w-[594px] w-full top-0 h-[594px] absolute -z-50 lg:-right-[0%] lg:-top-[0%]' style={{
         background: 'radial-gradient(41.49% 41.49% at 50% 50%, rgba(102, 27, 122, 0.62) 0%, rgba(101, 26, 117, 0) 100%)'
       }}></div>
-      <div className='lg:absolute lg:block hidden  -z-10 lg:-right-[9%] top-[70%]' style={{
+      <div className='lg:absolute lg:block hidden lg:w-[250px] lg:h-[250px]  -z-50 lg:-right-[0%] top-[60%]' style={{
         width: 594,
         height: 594,
         background: 'radial-gradient(41.49% 41.49% at 50% 50%, rgba(102, 27, 122, 0.62) 0%, rgba(101, 26, 117, 0) 100%)'
