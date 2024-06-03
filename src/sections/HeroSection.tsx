@@ -3,17 +3,14 @@ import { Play } from '@phosphor-icons/react'
 const HeroSection = () => {
   return (
     <div className='w-full h-screen flex justify-center items-center py-32 pt-36 relative -z-10' id='hero'>
-      <div className=' absolute -z-10 -left-[20%] -top-[0%]' style={{
-        width: 594,
-        height: 594,
+      <div className='lg:w-[594px] lg:h-[594] lg:absolute lg:block hidden -z-10 lg:-left-[20%] lg:-top-[0%]' style={{
         background: 'radial-gradient(41.49% 41.49% at 50% 50%, rgba(102, 27, 122, 0.62) 0%, rgba(101, 26, 117, 0) 100%)',
-
       }}></div>
       
       <div className="w-full flex justify-between gap-10">
         <div className="lg:w-1/2 w-full flex flex-col gap-10 items-center justify-center">
           <div className="flex flex-col gap-3">
-            <h1 className="text-[42px] font-bold leading-[50.4px]">Explore Our High Ticket Mining Server, Best ROI, Autopilot Income</h1>
+            <h1 className="text-[42px] font-bold leading-[50.4px] lg:text-start text-center">Explore Our High Ticket Mining Server, Best ROI, Autopilot Income</h1>
             <p className="text-textAccent text-[28px] leading-[33.6px]">An excellent marketplace for achieving significant ROI</p>
           </div>
           <div className="flex items-center gap-5 w-full">
@@ -37,12 +34,10 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className=' absolute -z-10 -right-[9%] -top-[0%]' style={{
-        width: 594,
-        height: 594,
+      <div className=' lg:w-[594px] lg:h-[594px] w-full top-0 h-[594px] absolute -z-10 lg:-right-[9%] lg:-top-[0%]' style={{
         background: 'radial-gradient(41.49% 41.49% at 50% 50%, rgba(102, 27, 122, 0.62) 0%, rgba(101, 26, 117, 0) 100%)'
       }}></div>
-      <div className=' absolute -z-10 -right-[9%] top-[70%]' style={{
+      <div className='lg:absolute lg:block hidden  -z-10 lg:-right-[9%] top-[70%]' style={{
         width: 594,
         height: 594,
         background: 'radial-gradient(41.49% 41.49% at 50% 50%, rgba(102, 27, 122, 0.62) 0%, rgba(101, 26, 117, 0) 100%)'

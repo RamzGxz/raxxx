@@ -77,7 +77,7 @@ const PricingSection = () => {
         </div>
       </div>
 
-      <div className=' absolute -z-50 -right-[9%] -bottom-[10%]' style={{
+      <div className=' absolute -z-50 lg:-right-[9%] -right-3 -bottom-[10%]' style={{
         width: 250,
         height: 250,
         background: 'radial-gradient(41.49% 41.49% at 50% 50%, rgba(102, 27, 122, 0.62) 0%, rgba(101, 26, 117, 0) 100%)'

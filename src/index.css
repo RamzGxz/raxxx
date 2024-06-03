@@ -5,6 +5,7 @@
 
 .btn {
   background: linear-gradient(90deg, #912EE0 13.51%, #BC17B1 81.03%);
+  cursor: pointer;
 }
 
 .btn:hover {
